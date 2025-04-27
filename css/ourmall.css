@@ -4,7 +4,6 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    
 }
 
 @media (min-width: 576px) {
@@ -360,6 +359,42 @@ padding-top: 80px;
 }
 
 
+.lippo-mall {
+    background: linear-gradient(to bottom, #f9f9f9 30%, white 30%);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.all-mall {
+    margin-top: 20px;
+}
+
+.all-mall .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-mall .col-md-4 {
+    width: 33.33%;
+    max-width: 33.33%;
+}
+
+@media (max-width: 991px) {
+    .all-mall .col-md-4 {
+        width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .all-mall .col-md-4 {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+}
+
+
 .w-search {
     text-align: center;
 }
@@ -435,7 +470,7 @@ padding-top: 80px;
     margin-left: -15px;
 }
 
-.col-md-4 {
+.col-md-2 {
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -444,7 +479,7 @@ padding-top: 80px;
 }
 
 @media (min-width: 768px) {
-    .col-md-4 {
+    .col-md-2 {
         flex: 0 0 33.33333%;
         max-width: 33.33333%;
     }

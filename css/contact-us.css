@@ -152,9 +152,9 @@ label {
 .form-control {
     display: block;
     width: 100%;
-    height: calc(1.5em + 0.75rem + 2px);
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
+    height: calc(2em + 1rem + 5px);
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
@@ -196,10 +196,9 @@ textarea.form-control {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-    padding: 0.5rem 2rem;
-    font-size: 1rem;
+    background-color: #000000;
+    padding: 0.4rem 2.2rem;
+    font-size: 0.9rem;
     line-height: 1.5;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -207,8 +206,7 @@ textarea.form-control {
 }
 
 .btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #000000d7;
 }
 
 .invalid-feedback {

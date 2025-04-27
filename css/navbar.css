@@ -136,7 +136,7 @@
     font-size: 24px;
     cursor: pointer;
     color: white;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 .sidenav {
@@ -266,9 +266,92 @@
     margin-left: 0;
 }
 
+@media (max-width: 768px) {
+    .sidenav {
+        width: 250px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-@media (min-width: 768px) {
     .sidenav.open {
-        width: 350px; 
+        width: 250px;
+    }
+
+    .sidenav ul {
+        left: 0;
+        margin-top: 30px;
+    }
+
+    .sidenav .nav-item {
+        font-size: 1.5rem;
+    }
+
+    .sidenav .nav-focus {
+        font-size: 2rem;
+        text-underline-offset: 12px;
+    }
+
+    .sidenav .nav-subscribe {
+        position: static;
+        padding: 20px 0;
+        margin-top: 40px;
+        text-align: left; 
+    }
+
+    .sidenav .nav-subscribe p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 10px;
+    }
+
+    
+
+    .social-links a {
+        display: block;
+    }
+
+    .social-links-sosmed {
+        display: flex;
+        justify-content: flex-start; 
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .social-links-sosmed a {
+        display: inline-block;
+    }
+
+    .sidenav .social-links img,
+    .sidenav .social-links-sosmed img {
+        height: 30px;
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidenav {
+        width: 220px;
+    }
+
+    .sidenav.open {
+        width: 220px;
+    }
+
+    .sidenav .nav-item {
+        font-size: 1.6rem;
+    }
+
+    .sidenav .nav-focus {
+        font-size: 2rem;
+    }
+
+    .sidenav .social-links img {
+        height: 25px;
     }
 }

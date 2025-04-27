@@ -9,13 +9,13 @@
     margin-left: -8px;
 }
 
-footer .container-fluid{
-    margin-left: 10px;
+.container-fluid-footer{
+    margin-left: 15px;
 }
 
 .col-md-6,
 .col-md-12,
-.col-12 {
+.col-10 {
     position: relative;
     width: 100%;
 }
