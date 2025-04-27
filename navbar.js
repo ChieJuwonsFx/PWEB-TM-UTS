@@ -6,6 +6,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const logo = document.getElementById('logo-brand');
     const dropdownToggle = document.querySelector('.dropdown-toggle');
 
+    const navItems = document.querySelectorAll('.nav-item');
+    
+    navItems.forEach(item => {
+        item.addEventListener('click', function() {
+            navItems.forEach(i => i.classList.remove('active'));
+            
+            item.classList.add('active');
+        });
+    });
+    
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {

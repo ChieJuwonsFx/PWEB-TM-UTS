@@ -1,3 +1,29 @@
+.col-md-6,
+.col-md-12,
+.col-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+.contact-us{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -90,7 +116,6 @@
     color: #fff;
     text-align: left;
     padding: 0 10px;
-    font-family: 'Proxima Nova', sans-serif; 
 }
 
 .scroll-hint img {
@@ -114,7 +139,6 @@
     }
 }
 
-/* Contact Form Styles */
 .form-group {
     margin-bottom: 1.5rem;
 }
