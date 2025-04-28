@@ -268,7 +268,8 @@
 
 @media (max-width: 768px) {
     .sidenav {
-        width: 250px;
+        width: 0px;
+        margin-left: -50px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -336,7 +337,7 @@
 
 @media (max-width: 480px) {
     .sidenav {
-        width: 220px;
+        width: 0px;
     }
 
     .sidenav.open {

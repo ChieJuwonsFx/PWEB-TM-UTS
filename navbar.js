@@ -82,12 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.overflow = ''; 
     });
 
-    window.addEventListener('load', function () {
-        setTimeout(function () {
-            document.querySelector('.parking-floating').classList.remove('hidden');
-        }, 1000);
-    });
-
     const bannerItems = document.querySelectorAll('.home-banner-item');
     bannerItems.forEach((item, index) => {
         item.style.animationDelay = `${index * 0.1}s`;
