@@ -206,7 +206,7 @@ padding-top: 80px;
 .card-container {
     flex: 0 0 calc(38% - 20px); 
     min-width: 320px; 
-    text-align: center;
+    text-align: left;
 }
 
 .card {
