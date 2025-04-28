@@ -92,16 +92,16 @@ footer a:hover {
     width: auto;
 }
 
-.social-links {
+footer .social-links {
     display: flex;
     align-items: center;
 }
 
-.social-links a {
+footer .social-links a {
     margin-right: 15px;
 }
 
-.social-icon {
+footer .social-icon {
     height: 32px;
     width: 32px;
 }

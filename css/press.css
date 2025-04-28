@@ -135,7 +135,6 @@ img {
     height: auto;
 }
 
-/* Utility Classes */
 .container {
     width: 100%;
     padding-right: 15px;
@@ -187,7 +186,6 @@ img {
 }
 
 
-/* Section Styles */
 .py-5 {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -197,7 +195,6 @@ img {
     background-color: #fff;
 }
 
-/* Breadcrumb Styles */
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;

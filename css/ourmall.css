@@ -460,6 +460,9 @@ padding-top: 80px;
     .form-control {
         font-size: 0.9rem;
     }
+    .form-group button img {
+        margin-right: 20px;
+    }
 }
 
 
