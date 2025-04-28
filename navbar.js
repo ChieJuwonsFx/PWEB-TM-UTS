@@ -5,16 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeBtn = document.querySelector('.closebtn');
     const logo = document.getElementById('logo-brand');
     const dropdownToggle = document.querySelector('.dropdown-toggle');
-
-    const navItems = document.querySelectorAll('.nav-item');
-    
-    navItems.forEach(item => {
-        item.addEventListener('click', function() {
-            navItems.forEach(i => i.classList.remove('active'));
-            
-            item.classList.add('active');
-        });
-    });
     
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
@@ -31,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
         sidenav.style.width = '70%';
         sidenavOverlay.style.opacity = '1';
         sidenavOverlay.style.zIndex = '1040';
+        sidenav.classList.add('open');
+        sidenavOverlay.classList.add('show');
+        document.body.style.overflow = 'hidden'; 
     });
 
     closeBtn.addEventListener('click', function () {
@@ -62,28 +55,5 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             });
         }
-    });
-
-    menuIcon.addEventListener('click', function () {
-        sidenav.classList.add('open');
-        sidenavOverlay.classList.add('show');
-        document.body.style.overflow = 'hidden'; 
-    });
-
-    closeNav.addEventListener('click', function () {
-        sidenav.classList.remove('open');
-        sidenavOverlay.classList.remove('show');
-        document.body.style.overflow = ''; 
-    });
-
-    sidenavOverlay.addEventListener('click', function () {
-        sidenav.classList.remove('open');
-        sidenavOverlay.classList.remove('show');
-        document.body.style.overflow = ''; 
-    });
-
-    const bannerItems = document.querySelectorAll('.home-banner-item');
-    bannerItems.forEach((item, index) => {
-        item.style.animationDelay = `${index * 0.1}s`;
     });
 });

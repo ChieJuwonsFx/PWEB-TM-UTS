@@ -164,11 +164,6 @@
     margin-left: -50px;
 }
 
-.sidenav.open {
-    width: 300px; 
-    margin-left: 0;
-}
-
 
 .sidenav .logo-container {
     display: flex;
@@ -176,8 +171,13 @@
     align-items: center;
     z-index: 200; 
     top: 10px;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-left: 65px;
     width: 100%;
+}
+
+.sidenav .logo-container .logo-img{
+    height: 25px;
 }
 
 .sidenav .closebtn {
@@ -253,7 +253,6 @@
 .sidenav .social-links img {
     height: 30px;
     width: auto;
-    
 }
 
 .sidenav-overlay {
@@ -274,10 +273,6 @@
     visibility: visible;
 }
 
-.sidenav.open {
-    width: 300px;
-    margin-left: 0;
-}
 
 @media (max-width: 768px) {
     .sidenav {
@@ -287,13 +282,14 @@
         padding-right: 15px;
     }
 
-    .sidenav.open {
-        width: 250px;
+    .sidenav .logo-container {
+        padding-left: 50px;
     }
 
     .sidenav ul {
         left: 0;
         margin-top: 30px;
+        margin-left: 50px;
     }
 
     .sidenav .nav-item {
@@ -307,7 +303,7 @@
 
     .sidenav .nav-subscribe {
         position: static;
-        padding: 20px 0;
+        padding-left: 50px;
         margin-top: 40px;
         text-align: left; 
     }
@@ -322,10 +318,6 @@
     .sidenav {
         width: 0px;
         margin-left: -50px;
-    }
-
-    .sidenav.open {
-        width: 220px;
     }
 
     .sidenav .nav-item {

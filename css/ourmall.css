@@ -214,6 +214,7 @@ padding-top: 80px;
     text-decoration: none;
     color: #333;
     transition: all 0.3s ease;
+    margin-bottom: 30px;
 }
 
 .card-img-container {
@@ -246,7 +247,7 @@ padding-top: 80px;
 
 .card-hover-line {
     width: 0;
-    height: 2px;
+    height: 1px;
     background-color: #333;
     margin-top: 40px;
     transition: width 0.4s ease;
